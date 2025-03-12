@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+
+.wrapper {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  width: 600px;
+  border-color: purple;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
+  color: black;
+  border-radius: 10px;
+  display: flex;
+}
+
+body {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .left {
+  display: flex;
+  width: 45%;
+  border: solid;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper .right {
+  width: 55%;
+  border: solid;
+  margin-left: 269px;
+  align-items: top;
+}
